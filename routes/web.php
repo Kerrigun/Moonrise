@@ -55,3 +55,12 @@ Route::get('/top_track', 'ApiController@top_trackAction');
 
 Route::get('/upload', 'ApiController@uploadAction');
 
+Route::get('/auth', 'AuthController@auth');
+
+Route::get('/auth', "AuthController@auth" );
+Route::get('/registration', "AuthController@registration" );
+
+Route::middleware('auth')->group(function() {
+    Route::get('/logout', "AuthController@logout");
+});
+

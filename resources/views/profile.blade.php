@@ -10,7 +10,6 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="description" content="Music">
     <meta name="keywords" content="">
-    <meta name="author" content="kamleshyadav">
     <meta name="MobileOptimized" content="320">
     <!--Start Style -->
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
@@ -190,14 +189,14 @@
                     </div>
                     <div class="ms_top_btn">
                         <a href="/upload" class="ms_btn">upload</a>
-                        <a href="javascript:;" class="ms_admin_name">Hello Nikita <span class="ms_pro_name">nb</span>                                                   
+                        <a href="javascript:;" class="ms_admin_name">Hello Nikita <span class="ms_pro_name">nb</span>
                         </a>
                         <ul class="pro_dropdown_menu">
                             <li><a href="/profile">Profile</a></li>
                             <li><a href="/manage_acc" target="_blank">Pricing Plan</a></li>
                             <li><a href="/blog" target="_blank">Blog</a></li>
                             <li><a href="">Setting</a></li>
-                            <li><a href="">Logout</a></li>
+                            <li><a href="/logout">Logout</a></li>
                         </ul>
                     </div>
                 </div>
@@ -251,7 +250,7 @@
                             <p>Description.</p>
                         </div>
                     </div>
- 
+
                     <div class="col-lg-4 col-md-7">
                         <div class="footer_box footer_subscribe">
                             <h1 class="footer_title">subscribe</h1>
@@ -539,78 +538,78 @@
                         <ul class="lang_list">
                             <li>
                                 <label class="lang_check_label">
-                            English 
-                            <input type="checkbox" name="check"> 
+                            English
+                            <input type="checkbox" name="check">
                             <span class="label-text"></span>
                             </label>
                             </li>
                             <li>
                                 <label class="lang_check_label">
                             Rissian
-                            <input type="checkbox" name="check"> 
+                            <input type="checkbox" name="check">
                             <span class="label-text"></span>
                             </label>
                             </li>
                             <li>
                                 <label class="lang_check_label">
                             hindi
-                            <input type="checkbox" name="check"> 
+                            <input type="checkbox" name="check">
                             <span class="label-text"></span>
                             </label>
                             </li>
                             <li>
                                 <label class="lang_check_label">
                             punjabi
-                            <input type="checkbox" name="check"> 
+                            <input type="checkbox" name="check">
                             <span class="label-text"></span>
                             </label>
                             </li>
                             <li>
                                 <label class="lang_check_label">
                             French
-                            <input type="checkbox" name="check"> 
+                            <input type="checkbox" name="check">
                             <span class="label-text"></span>
                             </label>
                             </li>
                             <li>
                                 <label class="lang_check_label">
-                             German 
-                            <input type="checkbox" name="check"> 
+                             German
+                            <input type="checkbox" name="check">
                             <span class="label-text"></span>
                             </label>
                             </li>
                             <li>
                                 <label class="lang_check_label">
                             Spanish
-                            <input type="checkbox" name="check"> 
+                            <input type="checkbox" name="check">
                             <span class="label-text"></span>
                             </label>
                             </li>
                             <li>
                                 <label class="lang_check_label">
                             Chinese
-                            <input type="checkbox" name="check"> 
+                            <input type="checkbox" name="check">
                             <span class="label-text"></span>
                             </label>
                             </li>
                             <li>
                                 <label class="lang_check_label">
-                            Japanese 
-                            <input type="checkbox" name="check"> 
+                            Japanese
+                            <input type="checkbox" name="check">
                             <span class="label-text"></span>
                             </label>
                             </li>
                             <li>
                                 <label class="lang_check_label">
                             Arabic
-                            <input type="checkbox" name="check"> 
+                            <input type="checkbox" name="check">
                             <span class="label-text"></span>
                             </label>
                             </li>
                             <li>
                                 <label class="lang_check_label">
                              Italian
-                            <input type="checkbox" name="check"> 
+                            <input type="checkbox" name="check">
                             <span class="label-text"></span>
                             </label>
                             </li>
@@ -676,7 +675,7 @@
                 </div>
             </div>
         </div>
-    </div>      
+    </div>
     <!--Main js file Style-->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>

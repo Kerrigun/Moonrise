@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 
 class ApiController extends Controller
 {
-   
+
    public function indexAction()
    {
-   		return view('index');
+   		return view('/index', ['free_music' => (new MusicController())->show()]);
    }
 
    public function add_playlistAction()
@@ -64,7 +64,7 @@ class ApiController extends Controller
 
    public function free_musicAction()
    {
-   		return view('free_music', ['video_list' => (new Video_ListController())->show()]);
+   		return view('free_music', ['free_music' => (new MusicController())->show()]);
    }
 
    public function genresAction()

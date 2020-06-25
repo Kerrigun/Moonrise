@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class video_list extends Model
+class Music extends Model
 {
     protected $fillable = [
-    	'title', 'description', 'status', 'user_id'
+        'title', 'description', 'status', 'user_id'
     ];
 }

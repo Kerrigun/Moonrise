@@ -743,6 +743,23 @@ span.nav_text {
 	-ms-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 }
+
+input[type="submit"]{
+    background-color: #3bc8e7;
+    color: #fff;
+    height: 40px;
+    border: 1px solid #fff;
+    margin-left: 0px;
+    padding: 0px 31px;
+    line-height: 40px;
+    width: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    outline:none;
+}
+
 .ms_btn:hover {
 	color: #ffffff;
 	box-shadow: 0px 0px 20px 0px #3bc8e7;
